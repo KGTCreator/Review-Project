@@ -16,67 +16,80 @@
 
 <body>
 
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logos/brand-logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="row  hero-image p-5">
+      <div class="div col-7"></div>
+      <div class="div col-5">
+        <div class="px-4 pt-5 my-5 text-center border-bottom">
+          <h1 class="display-4 fw-bold">We Design And Develop</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">We are a new design studio based in the USA. We have over 20 years of combined
+              experience,
+              and know a thing or two about designing websites and mobile apps.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Contact Us</button>
+            </div>
+          </div>
+          <div class="overflow-hidden" style="max-height: 30vh;">
+            <div class="container px-5">
+            </div>
+          </div>
+        </div>
+      </div>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="images/logos/brand-logo.png"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Testimonials</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+    </div>
+
+    <div class="row p-5">
+      <div class="col-7 m-auto p-5">
+        <h1 class="text-center">About Us</h1>
+        <h5 class="text-center">We are a team of programers that began operations back in 2001. Back then, this was a
+          small
+          team that made websites for the yound and growing internet. Computers and coding in general have changed a lot
+          since
+          then, and we have adapted as well. We specilize in Bootstrap and Javascript, and are dedicated to making every
+          project as great as possible, each one better than the last! So. if you ever need a spicy new website to
+          announce
+          what you have, ask us!</h5>
+        <img class="d-block m-auto" src="images/signature.png">
       </div>
     </div>
-  </nav>
 
-  <div class="px-4 pt-5 my-5 text-center border-bottom hero-image">
-    <h1 class="display-4 fw-bold">We Design And Develop</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">We are a new design studio based in the USA. We have over 20 years of combined experience,
-        and know a thing or two about designing websites and mobile apps.</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Contact Us</button>
-      </div>
-    </div>
-    <div class="overflow-hidden" style="max-height: 30vh;">
-      <div class="container px-5">
-      </div>
-    </div>
-  </div>
 
-  <hr>
-  <h1 class="text-center">About Us</h1>
-  <h5 class="text-center">We are a team of programers that began operations back in 2001. Back then, this was a small
-    team that made websites for the yound and growing internet. Computers and coding in general have changed a lot since
-    then, and we have adapted as well. We specilize in Bootstrap and Javascript, and are dedicated to making every
-    project as great as possible, each one better than the last! So. if you ever need a spicy new website to announce
-    what you have, ask us!</h5>
-  <img class="d-block m-auto" src="images/signature.png">
-  <hr>
-  <h3>Professional Skills</h3>
-  <div class="container">
     <div class="row">
-      <div class="col">
+      <div class="col-6 m-auto px-5">
+        <h3>Professional Skills</h3>
+
         <h5>UI/UX DESIGN 75%</h5>
         <div class="progress">
           <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
@@ -93,89 +106,147 @@
             aria-valuemax="100"></div>
         </div>
       </div>
-      <div class="col">
-        <img src="images/stil-sHGyGynyD5Y-unsplash.png">
+      <div class="col-6">
+        <img class="img-fluid w-100" src="images/stil-sHGyGynyD5Y-unsplash.png">
+      </div>
+    </div>
+
+    <div class="row p-3 mb-2 bg-info text-white text-center">
+
+      <div class="col-3">
+
+        <img src="images/icons/icon-01.png">
+        <h3>548</h3>
+        <h5>PROJECTS COMPLETED</h5>
+      </div>
+      <div class="col-3">
+        <img src="images/icons/icon-02.png">
+        <h3>1465</h3>
+        <h5>WORKING HOURS</h5>
+      </div>
+      <div class="col-3">
+        <img src="images/icons/icon-03.png">
+        <h3>612</h3>
+        <h5>POSITIVE FEEDBACKS</h5>
+      </div>
+      <div class="col-3">
+        <img src="images/icons/icon-04.png">
+        <h3>735</h3>
+        <h5>HAPPY CLIENTS</h5>
+      </div>
+
+    </div>
+
+    <div class="row justify-content-center m-0 p-0">
+      <div class="col-3 p-0">
+        
+        <img class="img-fluid" src="images/Package Design Lemon Tea - fabian krotzer Frame.png">
+        <div class="middle h-100 w-100">
+          <img class="eye" src="/images/icons/hover-icon.png" alt="">
+        </div>
+      </div>
+      <div class="col-3 p-0">
+        <img class="img-fluid" src="images/Package Design Vanilla Powder - fabian krotzer Frame.png">
+
+      </div>
+      <div class="col-3 p-0">
+        <img class="img-fluid" src="images/Package Design Coconut - fabian krotzer Frame.png">
+
+      </div>
+      <div class="col-3 p-0">
+        <img class="img-fluid" src="images/Package Design Komaso - fabian krotzer Frame.png">
+
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-3 p-0">
+        <img src="images/Package Design Spices - fabian krotzer Frame.png">
+
+      </div>
+      <div class="col-3 p-0">
+        <img src="images/Package Design Salad - fabian krotzer Frame.png">
+
+      </div>
+      <div class="col-3 p-0">
+        <img src="images/Package Design Olive Oil - fabian krotzer Frame.png">
+
+      </div>
+      <div class="col-3 p-0">
+        <img src="images/Package Design Seaweed - fabian krotzer Frame.png">
+
       </div>
     </div>
   </div>
-  <hr>
-  <div class="p-3 mb-2 bg-info text-white">
-  <img src="images/icons/icon-01.png">
-  <h3>548</h3>
-  <h5>PROJECTS COMPLETED</h5>
-  <img src="images/icons/icon-02.png">
-  <h3>1465</h3>
-  <h5>WORKING HOURS</h5>
-  <img src="images/icons/icon-03.png">
-  <h3>612</h3>
-  <h5>POSITIVE FEEDBACKS</h5>
-  <img src="images/icons/icon-04.png">
-  <h3>735</h3>
-  <h5>HAPPY CLIENTS</h5>
-  </div>
-  <hr>
-  <img src="images/Package Design Lemon Tea - fabian krotzer Frame.png">
-  <img src="images/Package Design Vanilla Powder - fabian krotzer Frame.png">
-  <img src="images/Package Design Coconut - fabian krotzer Frame.png">
-  <img src="images/Package Design Komaso - fabian krotzer Frame.png">
-  <img src="images/Package Design Spices - fabian krotzer Frame.png">
-  <img src="images/Package Design Salad - fabian krotzer Frame.png">
-  <img src="images/Package Design Olive Oil - fabian krotzer Frame.png">
-  <img src="images/Package Design Seaweed - fabian krotzer Frame.png">
-  <hr>
-  <div class="container">
+
+
+  <div class="row text-center m-5 p-5">
     <h2>Services</h2>
-    <div class="row">
-      <div class="col">
-        <img src="images/icons/icon-05.png">
-        <h4>UI/UX DESIGN</h4>
-        <h5>We've had mutiple years of experience in UI and UX, and we've put those skills to the test in order to create the best web work out there.</h5>
-      </div>
-      <div class="col">
-        <img src="images/icons/icon-06.png">
-        <h4>WEB DEVELOPMENT</h4>
-        <h5>If you couldn't tell already, we specialize in creating websites of all kinds. We made sure to add an extra
-          flare to our work so it's not like the rest.</h5>
-      </div>
-      <div class="col">
-        <img src="images/icons/icon-07.png">
-        <h4>APP/MOBILE</h4>
-        <h5>We also make sure that the projects we make can be accesed by anyone, and anywhere on Earth. We optimize our work so that people on their phones can find our sites too.</h5>
-      </div>
-      <div class="col">
-        <img src="images/icons/icon-08.png">
-        <h4>GAME DESIGN</h4>
-        <h5>Not only do we make websites for multiple clients, but some of us make
-          up a small division of our team that is dedicated to making mobile games, along with aiding you for indieconcole projects.</h5>
-      </div>
-      <div class="col">
-        <img src="images/icons/icon-09.png">
-        <h4>SEO/MARKETING</h4>
-        <h5>To make sure more people can see websites we make for you, we improve our work in order for them to appear in Google search engines. So shall someone want to find whatever the site is made for, they can find it faster.</h5>
-      </div>
-      <div class="col">
-        <img src="images/icons/icon-10.png">
-        <h4>PHOTOGRAPHY</h4>
-        <h5>If need be, we have a division that has hundreads of stock, and commisioned images that you can choose from. You can call our number you can find at the bottom of this webpage and inform us of your commision and we'll be right on it.</h5>
-      </div>
-      <div class="col">
-        <img src="images/icons/icon-11.png">
-        <h4>GRAPHIC DESIGN</h4>
-        <h5>We combine every element of web design into works of art that you and many viewers, will adore. This is something we strived for since the very begining og our company.</h5>
-      </div>
-      <div class="col">
-        <img src="images/icons/icon-12.png">
-        <h4>ILLISTRATIONS</h4>
-        <h5>To make our projects pop, we add small original illistrations whereever we are allowed. You may have seen
-          some of them in this very site!</h5>
-      </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <img src="images/icons/icon-05.png">
+      <h4>UI/UX DESIGN</h4>
+      <h5>We've had mutiple years of experience in UI and UX, and we've put those skills to the test in order to
+        create the best web work out there.</h5>
     </div>
+    <div class="col">
+      <img src="images/icons/icon-06.png">
+      <h4>WEB DEVELOPMENT</h4>
+      <h5>If you couldn't tell already, we specialize in creating websites of all kinds. We made sure to add an
+        extra
+        flare to our work so it's not like the rest.</h5>
+    </div>
+    <div class="col">
+      <img src="images/icons/icon-07.png">
+      <h4>APP/MOBILE</h4>
+      <h5>We also make sure that the projects we make can be accesed by anyone, and anywhere on Earth. We optimize
+        our
+        work so that people on their phones can find our sites too.</h5>
+    </div>
+    <div class="col">
+      <img src="images/icons/icon-08.png">
+      <h4>GAME DESIGN</h4>
+      <h5>Not only do we make websites for multiple clients, but some of us make
+        up a small division of our team that is dedicated to making mobile games, along with aiding you for
+        indieconcole projects.</h5>
+    </div>
+    <div class="col">
+      <img src="images/icons/icon-09.png">
+      <h4>SEO/MARKETING</h4>
+      <h5>To make sure more people can see websites we make for you, we improve our work in order for them to
+        appear
+        in Google search engines. So shall someone want to find whatever the site is made for, they can find it
+        faster.</h5>
+    </div>
+    <div class="col">
+      <img src="images/icons/icon-10.png">
+      <h4>PHOTOGRAPHY</h4>
+      <h5>If need be, we have a division that has hundreads of stock, and commisioned images that you can choose
+        from.
+        You can call our number you can find at the bottom of this webpage and inform us of your commision and
+        we'll
+        be right on it.</h5>
+    </div>
+    <div class="col">
+      <img src="images/icons/icon-11.png">
+      <h4>GRAPHIC DESIGN</h4>
+      <h5>We combine every element of web design into works of art that you and many viewers, will adore. This is
+        something we strived for since the very begining og our company.</h5>
+    </div>
+    <div class="col">
+      <img src="images/icons/icon-12.png">
+      <h4>ILLISTRATIONS</h4>
+      <h5>To make our projects pop, we add small original illistrations whereever we are allowed. You may have
+        seen
+        some of them in this very site!</h5>
+    </div>
+  </div>
   </div>
   <hr>
   <div class="p-3 mb-2 bg-info text-white">
-  <h2 class="text-center">"Outstanding job and exceeded all expectations. It was a pleaure to work with them on a
-    sizable first project and am looking forward to start the next one asap."</h2>
-  <h5 class="text-center">Micheal Hopkins</h5>
+    <h2 class="text-center">"Outstanding job and exceeded all expectations. It was a pleaure to work with them on a
+      sizable first project and am looking forward to start the next one asap."</h2>
+    <h5 class="text-center">Micheal Hopkins</h5>
   </div>
   <hr>
   <div class="container">
@@ -189,10 +260,33 @@
   </div>
   <hr>
   <div class="p-3 mb-2 bg-secondary text-white">
-  <h2 class="text-center">Need a Project?</h2>
-  <h5 class="text-center">Let us know what you're looking for in an agency. We'll take a look and see if this could be
-    the start of something beautiful.</h5>
-    </div>
+    <h2 class="text-center">Need a Project?</h2>
+    <h5 class="text-center">Let us know what you're looking for in an agency. We'll take a look and see if this
+      could be
+      the start of something beautiful.</h5>
+    <form>
+      <fieldset disabled>
+        <legend>Disabled fieldset example</legend>
+        <div class="mb-3">
+          <label for="disabledTextInput" class="form-label">Disabled input</label>
+          <input type="text" id="disabledTextInput" class="form-control" placeholder="Your name">
+        </div>
+        <div class="mb-3">
+          <label for="disabledTextInput" class="form-label">Disabled input</label>
+          <input type="text" id="disabledTextInput" class="form-control" placeholder="Your input">
+        </div>
+        <div class="mb-3">
+          <label for="disabledTextInput" class="form-label">Disabled input</label>
+          <input type="text" id="disabledTextInput" class="form-control" placeholder="Your title">
+        </div>
+        <div class="mb-3">
+          <label for="disabledTextInput" class="form-label">Disabled input</label>
+          <input type="text" id="disabledTextInput" class="form-control" placeholder="Your comment">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </fieldset>
+    </form>
+  </div>
   <hr>
   <h4>Piroll Design, Inc.</h4>
   <h6>(C) 2017 Piroll. All Rights Reserved</h6>
@@ -202,6 +296,8 @@
   <h6>+44 987 065 908</h6>
   <!-- Optional JavaScript; choose one of the two! -->
 
+  </div>
+  </div>
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
